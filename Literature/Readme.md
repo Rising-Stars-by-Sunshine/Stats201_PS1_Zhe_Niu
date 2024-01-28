@@ -50,10 +50,9 @@ The paper contributes intellectually by applying advanced sentiment analysis and
 The advent of ChatGPT 4 by OpenAI represents a significant leap in language model capabilities, sparking widespread discussions on platforms like Twitter. Analyzing these discussions is crucial for understanding public perception, potential applications, and concerns surrounding this advanced AI technology (OpenAI, 2023). This study aims to dissect Twitter data to uncover insights into how the public perceives ChatGPT 4, focusing on user profiles, dominant discussion topics, and sentiment trends.
 
 ## Research Questions
-- **RQ1:** What are the profile characteristics of ChatGPT 4 users on Twitter?
-- **RQ2:** What are the dominant topics emerging from tweets about ChatGPT 4?
-- **RQ3:** What sentiments are associated with tweets about ChatGPT 4?
-
+- **RQ1:** What are the demographic and behavioral attributes of individuals using ChatGPT 4 on Twitter? 
+- **RQ2:** What are the primary themes prevalent in discussions about ChatGPT 4 on Twitter? 
+- **RQ3:** What are the emotional tones reflected in Twitter conversations regarding ChatGPT 4?
 ## Application Scenarios
 This research has broad applications, including:
 - **Technology Development:** Guiding further advancements in AI models.
@@ -63,14 +62,11 @@ This research has broad applications, including:
 
 ## Methodology
 ### Tools and Techniques
-- **Data Collection:** Scraping tweets via `snscrape` (Twitter Developer API, 2023).
-- **Data Preprocessing:** Involving duplication removal, lowercasing, noise removal (including punctuation, stopwords, URLs, @mentions), and lemmatization, using tools like `re`, `NLTK`, `pandas`, and `numpy` (Bird et al., 2009).
-- **Feature Engineering:** Extracting geographical and datetime information from user profiles and tweets using `geopy` and `datetime`.
-- **Topic Modeling:** Applying Latent Dirichlet Allocation (LDA) using `pyLDAvis` and `gensim` (Blei et al., 2003).
-- **Sentiment Analysis:** Combining VADER (rule-based) from the `NLTK` library and Twitter-roBERTa (deep learning-based) from the `TRANSFORMERS` package (Hutto & Gilbert, 2014).
-- **Data Visualization:** Employing `matplotlib`, `seaborn`, `wordcloud`, and `PowerBI` for visual representation of data.
-- **Environments & Platforms:** Utilizing `Google Colab`, `Databricks`, `Pyspark`, `Jupyter Notebook`, and `Twitter`.
-
+- **Data Acquisition:** Gathering data from Twitter using `snscrape` and downloading datasets from [Kaggle: GPT-4 Tweets](https://www.kaggle.com/datasets/konradb/gpt4-the-tweets) (2024).
+- **Data Cleansing and Preparation:** Implementing steps like removing duplicates, converting text to lowercase, filtering out noise (such as punctuation, stopwords, web links, and user mentions), and standardizing words (lemmatization) with tools like `re`, `NLTK`, `pandas`, and `numpy` (Bird et al., 2009).
+- **Data Enrichment:** Deriving geographical and temporal insights from user profiles and tweets utilizing `geopy` and `datetime`.
+- **Thematic Analysis:** Employing Latent Dirichlet Allocation (LDA) for topic discovery, using tools like `pyLDAvis` and `gensim` (Blei et al., 2003).
+- **Emotional Tone Assessment:** Integrating VADER (a rule-based approach) from the `NLTK` library with Twitter-roBERTa (a deep learning approach) from the `TRANSFORMERS` package for sentiment analysis (Hutto & Gilbert, 2014).
 ### Data Modeling
 - **Unsupervised LDA:** Implemented to extract key ChatGPT topics, with the number of topics optimized for coherence.
 - **Sentiment Analysis:** Employing a combination of rule-based and deep learning models to analyze the emotional tone of tweets.
@@ -81,14 +77,15 @@ The study is anticipated to reveal a diverse range of user profiles engaging wit
 ## Intellectual Merits/Practical Impacts
 This research will enhance understanding of public discourse around AI technologies, particularly ChatGPT 4. It will contribute to the field of sentiment analysis by applying mixed-method approaches to social media data. The insights gained can inform stakeholders in AI development, policy, and ethics, shaping responsible strategies for AI advancement and deployment.
 
+
 ## Flowchart of Research 
 ![Proposal](Proposal.png)
 
-
 ## References
 - OpenAI. (2023). ChatGPT 4: Overview and Capabilities. Retrieved from [https://openai.com](https://openai.com)
-- Twitter Developer API. (2023). Twitter API Documentation. Retrieved from [https://developer.twitter.com](https://developer.twitter.com)
+- Kaggle. (2024). Tweets Dataset. Retrieved from [Kaggle: GPT-4 Tweets]( https://www.kaggle.com/datasets/konradb/gpt4-the-tweets)
 - Bird, S., Klein, E., & Loper, E. (2009). Natural Language Processing with Python. O'Reilly Media.
 - Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. Journal of Machine Learning Research, 3, 993-1022.
 - Hutto, C. J., & Gilbert, E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. In Proceedings of the Eighth International AAAI Conference on Weblogs and Social Media.edia*.
+
 
