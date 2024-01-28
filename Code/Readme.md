@@ -46,3 +46,10 @@ This section outlines the process used in the `Data_Query.ipynb` file for queryi
 
 \end{algorithmic}
 \end{document}
+
+
+## Rationale for Dataset Usage
+The GPT-4 Tweets dataset is selected for its comprehensive coverage of public discussions on Twitter about the GPT4 language model. Analyzing this dataset allows us to extract insights into user experiences, challenges, and perceptions of GPT4, contributing valuable information to AI and social media research. The diversity of opinions and topics in the dataset ensures a broad analysis scope.
+
+## References
+- GPT-4 Tweets Dataset. Accessed: 2024-01-28. [GPT-4 Tweets Dataset](https://www.kaggle.com/datasets/konradb/gpt4-the-tweets)
