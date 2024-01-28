@@ -33,13 +33,14 @@ The study found that:
 ## Intellectual Merits/Practical Impacts
 The paper contributes intellectually by applying advanced sentiment analysis and topic modeling techniques to understand public opinion on AI technologies. Practically, it provides valuable insights into user perceptions, which can inform developers, policymakers, and researchers about the societal impact of AI tools like ChatGPT. It highlights the importance of addressing ethical and legal concerns in AI development and deployment.
 
+## Flowchart of Literature 
+![Literature](Literature.png)
+
 ## References
 - "Optimizing Language Models for Dialogue", 2022, [online] Available: https://openai.com/blog/chatgpt/.
 - Hutto, C., & Gilbert, E. (2014, May). Vader: A parsimonious rule-based model for sentiment analysis of social media text. In Proceedings of the international AAAI conference on web and social media (Vol. 8, No. 1, pp. 216-225).
 - Díaz, S. S., Shaik, J. M. M., & Santofimio, J. C. G. (2018, November). Intelligent execution of behaviors in a nao robot exposed to audiovisual stimulus. In 2018 IEEE 2nd Colombian Conference on Robotics and Automation (CCRA) (pp. 1-6). IEEE.
 - Egger, R., & Yu, J. (2022). A topic modeling comparison between lda, nmf, top2vec, and bertopic to demystify twitter posts. Frontiers in sociology, 7, 886498.
-
- 
 
 
 
@@ -79,6 +80,10 @@ The study is anticipated to reveal a diverse range of user profiles engaging wit
 
 ## Intellectual Merits/Practical Impacts
 This research will enhance understanding of public discourse around AI technologies, particularly ChatGPT 4. It will contribute to the field of sentiment analysis by applying mixed-method approaches to social media data. The insights gained can inform stakeholders in AI development, policy, and ethics, shaping responsible strategies for AI advancement and deployment.
+
+## Flowchart of Research 
+![Proposal](Proposal.png)
+
 
 ## References
 - OpenAI. (2023). ChatGPT 4: Overview and Capabilities. Retrieved from [https://openai.com](https://openai.com)
